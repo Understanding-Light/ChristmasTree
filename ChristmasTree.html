@@ -1,0 +1,139 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet"> <!-- font-family: 'Nanum Gothic', sans-serif;-->
+
+  <link href="https://fonts.googleapis.com/css?family=Noto+Serif+KR" rel="stylesheet">  <!-- font-family: 'Noto Serif KR', sans-serif;-->
+  <!-- PLEASE NO CHANGES BELOW THIS LINE (UNTIL I SAY SO) -->
+  <script language="javascript" type="text/javascript" src="libraries/p5.js"></script>
+  <script language="javascript" type="text/javascript" src="libraries/p5.sound.min.js"></script>
+  <script language="javascript" type="text/javascript" src="libraries/p5.sound.js"></script>
+  <script language="javascript" type="text/javascript" src="ChristmasTree.js"></script>
+  <!-- OK, YOU CAN MAKE CHANGES BELOW THIS LINE AGAIN -->
+
+  <!-- This line removes any default padding and style. 
+       You might only need one of these values set. -->
+ <style type = "text/css"> 
+  body {
+    width: 1024px;
+    padding: 20 auto; 
+    margin: 40 auto;
+    background-color: #FFF;
+  }
+  div {
+    width: 1024px;
+    margin: 30px auto; 
+  }
+
+  #defaultCanvas0{
+    display: block;
+    margin: 0;
+  }
+  
+
+  
+  #titleText1 {
+    margin :20px auto;
+    text-align :center;
+    font-size : 45px;
+    font-weight: 2em;
+    color: #4C4C4C;
+    font-family: 'Noto Serif KR', sans-serif;
+  }
+
+  #titleText2 {
+    text-align : left;
+    margin-top : 0px;
+    font-size : 25px;
+    font-weight: 2em;
+    color: #4C4C4C;
+    font-family: 'Noto Serif KR', sans-serif;
+  }
+
+.box1 {
+  display: inline-block;
+  width: 400px;
+  height: 300px;
+  margin-left: 84px;
+  margin-top: 10px;
+  margin-right: 22px;
+  background-color: #333;
+}
+.box2 {
+  display: inline-block;
+  border-width : 7px;
+  border-color: #e27c7c;
+  border-style: dashed;
+  width: 365px;
+  height: 248px;
+  margin-left: 18px;
+   margin-top: 30px;
+  margin-right: 70px;
+padding: 20px;
+
+position: relative; top: -80px;
+
+}
+.line {
+  height: 7px;
+  width : 860px;
+   background-color: #e27c7c;
+}
+.lineB {
+  height: 40px;
+  width : 860px;
+   background-color: #e27c7c;
+}
+#door {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+ .para {
+  font-size : 14px;
+  width: 350px;
+    font-weight: 1.5em;
+    color: #4C4C4C;
+    font-family: 'Noto Serif KR', sans-serif;
+ }
+#comment{
+  font-size : 14px;
+  width: 800px;
+    font-weight: 1.5em;
+    color: #4C4C4C;
+    font-family: 'Noto Serif KR', sans-serif;
+  position: relative; top: -130px; left:460px;
+
+}
+
+   </style>
+</head>
+
+
+
+<body>
+    <div class = "line"></div>
+  <div>
+    <h1 id = "titleText1">무지개 눈덩이 대포</h1>
+  </div>
+  <div class = "line"> </div>
+      
+  <div class = "box1">
+    <img id = "door" src = "http://img.seoul.co.kr/img/upload/2017/12/25/SSI_20171225193718_V.jpg" border="0"  width="400" height="300">
+
+  </div>
+
+<div class = "box2">
+<h1 id = "titleText2">작품 설명</h1>
+ <p class = "para"><b><눈덩이 대포란?></b> 나는 화이트 크리스마스를 좋아한다. 하지만 지금까지 살면서 나는 눈이 펑펑 내리는 크리스마스를 보낸 적은 없었던 것 같다. 그래서 어렸을 때에 대포에 눈이라도 넣어서 하늘에 날리고 싶었다.</p>
+ <p class = "para"><b><인터렉션></b> 대포를 누르면 눈덩이가 발사된다. 잠시 후 마법처럼 눈이 떨어진다. 대포를 계속 쏴보자. 눈으로 온 세상이 덮여질 것이다. 그리고 트리 위의 별도 눌러보자. 마법이 펼쳐질 것이다.
+</p>
+  </div>
+  <div class="lineB"><div>
+  <div id="sketch-holder">
+    
+
+  </div>
+ 
+</body>
+</html>
